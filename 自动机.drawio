@@ -1,9 +1,72 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.2">
   <diagram name="第 1 页" id="SxcjrH2TLeeAM-jR7zSl">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gI8u4NJ4Qc9DUYTSuLzv-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gI8u4NJ4Qc9DUYTSuLzv-2" value="主循环" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gI8u4NJ4Qc9DUYTSuLzv-3" value="输入字符串s" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gI8u4NJ4Qc9DUYTSuLzv-4" value="s==#?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gI8u4NJ4Qc9DUYTSuLzv-5" value="初始化变量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gI8u4NJ4Qc9DUYTSuLzv-6" value="退出循环" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gI8u4NJ4Qc9DUYTSuLzv-7" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gI8u4NJ4Qc9DUYTSuLzv-8" value="进入isAccept函数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gI8u4NJ4Qc9DUYTSuLzv-9" value="遍历字符" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="554.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gI8u4NJ4Qc9DUYTSuLzv-10" value="字符类型判断" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="650" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gI8u4NJ4Qc9DUYTSuLzv-11" value="DigitHandler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gI8u4NJ4Qc9DUYTSuLzv-12" value="DotHandler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gI8u4NJ4Qc9DUYTSuLzv-13" value="EHandler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gI8u4NJ4Qc9DUYTSuLzv-14" value="ADHandler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gI8u4NJ4Qc9DUYTSuLzv-15" value="continue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gI8u4NJ4Qc9DUYTSuLzv-16" value="非法字符" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gI8u4NJ4Qc9DUYTSuLzv-17" value="状态转移有效" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="840" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gI8u4NJ4Qc9DUYTSuLzv-21" value="判断是否还有字符" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="960" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gI8u4NJ4Qc9DUYTSuLzv-22" value="该字符串接受" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gI8u4NJ4Qc9DUYTSuLzv-23" value="该字符串不接受" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gI8u4NJ4Qc9DUYTSuLzv-24" value="接受输出" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1210" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
